@@ -1,0 +1,295 @@
+
+@font-face {
+    font-family: 'youmurdererbb_reg-webfont';
+    src: url("https://doc-0o-b4-docs.googleusercontent.com/docs/securesc/mo6938ve83clqortcuemfjpn4nsg8k9o/708rodqalfptsfqkhrv8h6kg38j5i6qk/1604901225000/09203910107409729922/09203910107409729922/1Cw_Wh8iZSuUmIiF-59zRGJsWotn4GF3P?e=download&authuser=1") 
+format('woff'),
+         url('youmurdererbb_reg-webfont.woff') 
+format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+ z-index: -1;
+ background:url("https://wallpapercave.com/wp/wp2719330.jpg");
+ background-size:cover;
+}
+p {
+color: white;
+font-size: ;
+font-style: ;
+font-family: ;
+display: ;
+text-decoration: ;
+font-family: 'youmurdererbb_reg-webfont',Times New Roman;
+ text-align: center;
+}
+
+h1{ 
+font-size: ;
+color: ;
+display: ;
+text-decoration: ;
+font-style: ;
+font-family: ;
+background: blackscale(100%);
+text-align: center;
+}
+h2 {
+font-size: ;
+font-family: ;
+font-style: ;
+color: ;
+display: ;
+text-decoration: ;
+text-align: center;
+}
+h3 {
+font-size: ;
+font-family: ;
+font-style: ;
+color: ;
+display: ;
+text-decoration: ;
+text-align: center;;
+}
+h4{
+font-size: ;
+font-style: ;
+font-family: ;
+color: ;
+display: ;
+text-decoration: ;
+text-align: center;
+}
+form{
+font-size: ;
+font-style: ;
+font-family: ;
+color: ;
+display: ;
+margin: ;
+text-decoration: ;
+text-align:center;
+}
+input[type="password"]{
+font-size: ;
+font-style: ;
+font-family: ;
+color: red;
+text-decoration: ;
+text-align: center;
+display:block;
+margin: 20px;
+width:300px; 
+}
+input[type="text"]{
+font-size: ;
+font-style: ;
+font-family: ;
+color: red;
+text-decoration:;
+text-align: center;
+display:block;
+margin: 20px;
+width:300px;
+ }
+input[type="radio"]{
+font-size: ;
+font-style: ;
+font-family: ;
+color:white;
+font-color:gray;
+text-decoration: ;
+text-align: ;
+margin-left:75px;
+}
+label{
+color:gray;
+}
+button{
+position: relative;
+bottom: 215px;
+color: red;
+margin-left: 150px;}
+
+img{
+text-shadow: 0px 0px 10px orange,
+0px 0px 5px red;
+animation: go 3s infinite;
+height: 50%;
+width: 50%;
+position: obsolute;
+left: 150%;
+right: 150%;
+item-position:center;
+display: center;
+margin-left: 78px;
+} 
+@-keyframes go{
+ 0%{height:200px;width:170px;}
+ 50%{height:170px;width:200px;}
+ 100%{height:200px;width:170px;}
+} 
+
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup.popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup.popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
